@@ -33,7 +33,8 @@ export const Contact: React.FC = () => {
     );
 
     // Open WhatsApp in new tab
-    const waUrl = `https://wa.me/6281234567890?text=${waText}`;
+    const phone = PERSONAL_INFO.phone.replace(/[^0-9]/g, '');
+    const waUrl = `https://wa.me/${phone}?text=${waText}`;
     window.open(waUrl, '_blank');
 
     setTimeout(() => {
@@ -70,7 +71,7 @@ export const Contact: React.FC = () => {
             
             {/* WhatsApp Card */}
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Alfin,%20saya%20tertarik%20berdiskusi%20mengenai%20projek/kesempatan%20kolaborasi."
+              href={PERSONAL_INFO.social.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               className="glass-card p-5 rounded-2xl border border-slate-800 hover:border-emerald-500/40 transition-all flex items-center gap-4 group hover:-translate-y-1 block"

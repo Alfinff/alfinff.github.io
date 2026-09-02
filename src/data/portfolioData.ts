@@ -42,8 +42,8 @@ export const PERSONAL_INFO = {
   bio: "Software Engineer with extensive experience in mission-critical financial switching systems, host-to-host (H2H) biller architectures, and enterprise web & mobile development. Proven track record in processing millions of transactions, building fraud detection pipelines, and delivering BUMN & government solutions.",
   status: "Available for Projects & Tech Roles",
   location: "Surabaya, Indonesia",
-  email: "alfinfaizfebrianto@gmail.com",
-  phone: "+6281234567890", // placeholder or general
+  email: "alvinf889@gmail.com",
+  phone: "6281234567890", // Ganti dengan nomor WA aslimu (format: 628xxx)
   social: {
     github: "https://github.com/alfinff",
     linkedin: "https://linkedin.com/in/alfinff",
