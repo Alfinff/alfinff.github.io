@@ -43,11 +43,11 @@ export const PERSONAL_INFO = {
   status: "Available for Projects & Tech Roles",
   location: "Surabaya, Indonesia",
   email: "alvinf889@gmail.com",
-  phone: "6281234567890", // Ganti dengan nomor WA aslimu (format: 628xxx)
+  phone: "6285695963071",
   social: {
     github: "https://github.com/alfinff",
     linkedin: "https://linkedin.com/in/alfinff",
-    whatsapp: "https://wa.me/6281234567890",
+    whatsapp: "https://wa.me/6285695963071",
   },
   stats: [
     { label: "Years Experience", value: "4+" },
